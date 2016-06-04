@@ -1,0 +1,44 @@
+.sadd-footer {
+    color: $sadd-light;
+    background-color: $sadd-dark;
+    text-align: center;
+    @include screen-sm {
+        text-align: left;
+    }
+    a {
+        color: inherit;
+    }
+    ul {
+        list-style: none;
+        margin: 0 0 1rem 0;
+        padding: 0;
+    }
+    .row {
+        margin-top: 1.5rem;
+    }
+}
+
+.sadd-footer__logo {
+    font-family: $sadd-slab;
+    font-size: 1.5rem;
+    @include screen-sm {
+        text-align: right;
+    }
+    .stuart-allen {
+        font-weight: 400;
+    }
+    .design {
+        font-weight: 100;
+    }
+}
+.sadd-footer__social-icons {
+    svg {
+        fill: $sadd-light;
+        margin: auto;
+        max-width: 1.5rem;
+        transition: fill 0.2s ease;
+        &:hover, &:focus {
+            fill: $accent-1;
+        }
+    }
+}

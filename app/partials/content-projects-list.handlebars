@@ -1,0 +1,26 @@
+<div class="inner-shadow sadd-light-bg bottom-border--orange sadd-projects-list">
+
+    <div class="container">
+
+        <div class="row">
+
+            <ul class="sadd-projects">
+                {{#each projects}}
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="/{{id}}.html">
+                        <div class="panel">
+                            <div class="sadd-project__image-cont">
+                                <div class="sadd-project__image" style="background-image: url('{{imageUrl}}')"></div>
+                            </div>
+                            <div class="sadd-project__text-cont"><h5>{{name}}</h5></div>
+                        </div>
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>

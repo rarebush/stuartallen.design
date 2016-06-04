@@ -1,0 +1,81 @@
+// media queries
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// breakpoints
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+@mixin screen-sm {
+  @media (min-width: $screen-sm-min) {
+    @content;
+  }
+}
+@mixin screen-md {
+  @media (min-width: $screen-md-min) {
+    @content;
+  }
+}
+@mixin screen-lg {
+  @media (min-width: $screen-lg-min) {
+    @content;
+  }
+}
+
+
+//square it up
+@mixin squareContainer() {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    &:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+}
+
+@mixin squareContent() {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.square-container {
+    @include squareContainer();
+}
+
+.square-content {
+    @include squareContent();
+}
+
+// centre an image and crop overflow
+
+@mixin centreImage() {
+    width: 8000px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -4000px;
+    img {
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+    }
+}
+
+.centre-image {
+    @include centreImage();
+}
+
+// round all the corners!
+@mixin roundAllCorners() {
+    border-radius: 50%;
+}
+
+.round-corners {
+    @include roundAllCorners();
+}

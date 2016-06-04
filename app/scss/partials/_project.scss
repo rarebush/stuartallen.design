@@ -1,0 +1,38 @@
+.sadd-project__intro {
+    color: $sadd-light;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    .sadd-project__intro-image {
+        position: absolute;
+        top: -2rem;
+        left: -2rem;
+        right: -2rem;
+        bottom: -2rem;
+        background-position: center;
+        background-size: cover;
+        filter: blur(10px);
+    }
+    .sadd-project__intro-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparentize($sadd-dark, 0.15);
+    }
+}
+
+.sadd-project__content {
+    .row {
+        margin-bottom: 2rem;
+        &:first-child {
+            margin-top: 2rem;
+        }
+    }
+    img, video {
+        max-height: 15rem;
+        max-height: 75vh;
+    }
+}

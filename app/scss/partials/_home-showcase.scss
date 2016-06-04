@@ -1,0 +1,37 @@
+.sadd-home-showcase {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.sadd-home-showcase__item {
+    margin-bottom: 1rem;
+}
+.sadd-home-showcase__image {
+    border: 0.5rem solid $accent-1;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    background-color: transparentize($grey-800, 0.25);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: border-radius 0.2s ease;
+    z-index: 5;
+    &:hover, &:focus {
+        border-radius: 25%;
+    }
+    img, svg {
+        fill: $grey-100;
+        padding: 18%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.sadd-home-showcase__label {
+    color: $grey-100;
+    font-family: $sadd-slab;
+    font-size: 1.125em;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}

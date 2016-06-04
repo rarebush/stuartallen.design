@@ -1,0 +1,365 @@
+[{
+        "pageId": "index",
+        "pageName": "Home",
+        "home-template": true,
+        "page-home": true
+},
+    {
+        "pageId": "home",
+        "pageName": "Home",
+        "home-template": true,
+        "page-home": true
+},
+    {
+        "pageId": "about",
+        "pageName": "About",
+        "home-template": true,
+        "page-about": true
+},
+    {
+        "pageId": "contact",
+        "pageName": "Contact",
+        "home-template": true,
+        "page-contact": true
+},
+    {
+        "pageId": "web-design",
+        "pageName": "Web Design",
+        "home-template": true,
+        "projects-page": true,
+        "showcase-icon": "code",
+        "intro-copy": "A showcase of projects demonstrating my skill in UI design, UX design, HTML5, SASS, data visualisation and more.",
+        "projects": [{
+            "id": "jas",
+            "name": "Journal App Services",
+            "imageUrl": "images/projects/jas-ipad-landscape-news-detail.jpg"
+        },{
+            "id": "wiley-hub-guide",
+            "name": "Wiley Hub Guide",
+            "imageUrl": "images/projects/hub-guide-desktop-mobile.png"
+        },{
+            "id": "anywhere-article",
+            "name": "Anywhere Article",
+            "imageUrl": "images/projects/anywhere-article-macbook.jpg"
+        },{
+            "id": "hubs",
+            "name": "Wiley Online Library Hubs",
+            "imageUrl": "images/projects/hubs-mobile-flat-angle.jpg"
+        },{
+            "id": "one-wiley-ui-styleguide",
+            "name": "One Wiley UI Styleguide",
+            "imageUrl": "images/projects/desk.jpg"
+        },{
+            "id": "peer-review",
+            "name": "Wiley Peer Review 2015",
+            "imageUrl": "images/projects/desk.jpg"
+        },{
+            "id": "mannatech-europe",
+            "name": "Mannatech Europe",
+            "imageUrl": "images/projects/mannatech-focus-website.jpg"
+        },{
+            "id": "chemplanner",
+            "name": "Chemplanner",
+            "imageUrl": "images/projects/desk.jpg"
+        },{
+            "id": "wiley-journal-insights",
+            "name": "Wiley Journal Insights",
+            "imageUrl": "images/projects/wiley-journal-insights-showcase.jpg"
+        },{
+            "id": "ui-component-library",
+            "name": "UI Component Library",
+            "imageUrl": "images/projects/desk.jpg"
+        },{
+            "id": "wiley-portal",
+            "name": "Wiley Portal",
+            "imageUrl": "images/projects/desk.jpg"
+        },{
+            "id": "febs-network",
+            "name": "Febs Network",
+            "imageUrl": "images/projects/febs-mockup.jpg"
+        },{
+            "id": "wiley-online-library",
+            "name": "Wiley Online Library",
+            "imageUrl": "images/projects/desk.jpg"
+        }]
+},
+    {
+        "pageId": "graphic-design",
+        "pageName": "Graphic Design",
+        "home-template": true,
+        "projects-page": true,
+        "showcase-icon": "transform",
+        "intro-copy": "A showcase of projects demonstrating my skill in Graphic design, layout, exhibition design, infographics and more.",
+        "projects": [{
+            "id": "moon",
+            "name": "Moon",
+            "imageUrl": "images/projects/moon-box.jpg"
+        },{
+            "id": "one-wiley-brand-guidelines",
+            "name": "One Wiley Brand Guidelines",
+            "imageUrl": "images/projects/desk.jpg"
+        },{
+            "id": "health-and-hygiene-floors",
+            "name": "Health and Hygiene Floors",
+            "imageUrl": "images/projects/health-hygiene-floors-logos.png"
+        },{
+            "id": "traffic-control",
+            "name": "21st Century Traffic Control",
+            "imageUrl": "images/projects/traffic-control-logo.jpg"
+        },{
+            "id": "hackathon",
+            "name": "Wiley Hackathon",
+            "imageUrl": "images/projects/hackathon-sign.jpg"
+        },{
+            "id": "outer-space-companies",
+            "name": "Outer Space Companies",
+            "imageUrl": "images/projects/outerspace-21-structures.jpg"
+        },{
+            "id": "generated-business-cards",
+            "name": "Generated Business Cards",
+            "imageUrl": "images/projects/generated-cards.jpg"
+        },{
+            "id": "winchester-student-agency",
+            "name": "Winchester School of Art Student Agency",
+            "imageUrl": "images/projects/wsa-logos-chokablok.png"
+        },{
+            "id": "engagement-model",
+            "name": "Engagement Model",
+            "imageUrl": "images/projects/tdi-mockup-on-desk.jpg"
+        },{
+            "id": "spectralab",
+            "name": "Spectralab",
+            "imageUrl": "images/projects/spectra-lab-mockup.jpg"
+        }]
+},
+    {
+        "pageId": "illustration",
+        "pageName": "Illustration",
+        "home-template": true,
+        "projects-page": true,
+        "showcase-icon": "pen",
+        "intro-copy": "A showcase of projects demonstrating my skill in illustration, sketching and digital illustration.",
+        "projects": [{
+            "id": "computer-you",
+            "name": "Computer You",
+            "imageUrl": "images/projects/computer-you-mockup-cover.jpg"
+        },{
+            "id": "one-hundred-years-of-solitude",
+            "name": "One Hundred Years of Solitude",
+            "imageUrl": "images/projects/one-hundred-frame.jpg"
+        },{
+            "id": "journey-of-a-spaceman",
+            "name": "Journey of a Spaceman",
+            "imageUrl": "images/projects/spaceman-spaceman-frame.jpg"
+        }]
+},
+    {
+        "pageId": "animation",
+        "pageName": "Animation",
+        "home-template": true,
+        "projects-page": true,
+        "showcase-icon": "time-line",
+        "intro-copy": "A showcase of projects demonstrating my skill in AV editing, animated illustration and moving graphics.",
+        "projects": [{
+            "id": "animated-logos",
+            "name": "Animated Logos",
+            "imageUrl": "images/projects/animated-logos-thumb.png"
+        },{
+            "id": "xfm",
+            "name": "Extreme Food Makeover",
+            "imageUrl": "images/projects/xfm-logo.jpg"
+        },{
+            "id": "animated-cards",
+            "name": "Animated Cards",
+            "imageUrl": "images/projects/animated-cards-thumb.jpg"
+        },{
+            "id": "noob-gallery",
+            "name": "Noob Gallery",
+            "imageUrl": "images/projects/desk.jpg"
+        },{
+            "id": "uth",
+            "name": "Ūth",
+            "imageUrl": "images/projects/desk.jpg"
+        }]
+},
+    {
+        "pageId": "jas",
+        "pageName": "Journal App Services",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the jas project",
+        "project-images": ["jas-ipad-portrait-journal-picker.jpg","jas-ipad-landscape-news.jpg","jas-ipad-landscape-news-detail.jpg","jas-ipad-landscape-toc.jpg"],
+        "services": ["UI design", "Gaphic design", "iOS design standards"],
+        "extra": ["<a href='http://getbootstrap.com/css/#grid'>Bootstrap</a>", "Graphic design", "iOS design standards"]
+},
+    {
+        "pageId": "wiley-hub-guide",
+        "pageName": "Wiley Hub Guide",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["hub-guide-desktop-mobile.png","hub-guide-desktop.png","hub-guide-execution.png", "hub-guide-themes.png"]
+},
+    {
+        "pageId": "anywhere-article",
+        "pageName": "Anywhere Article",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["anywhere-article-macbook.jpg","anywhere-article-ipad-iphone.jpg","anywhere-article-browsers.jpg", "anywhere-article-mobile.jpg"]
+},
+    {
+        "pageId": "hubs",
+        "pageName": "Wiley Online Library Hubs",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["hubs-mobile-flat-angle.jpg","hubs-mobile-flat.jpg","hubs-desktop-iubmb.jpg", "hubs-desktop-febs.jpg", "hubs-desktop-aasld.jpg"]
+},
+    {
+        "pageId": "mannatech-europe",
+        "pageName": "Mannatech Europe",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["mannatech-focus-website.jpg","mannatech-laptop-website.jpg","mannatech-phone-website.jpg"]
+},
+    {
+        "pageId": "wiley-journal-insights",
+        "pageName": "Wiley Journal Insights",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["wiley-journal-insights-showcase.jpg","wiley-journal-insights-hand.jpg","wiley-journal-insights-browser.jpg", "wiley-journal-insights-hand-detail.jpg", "wiley-journal-insights-detail.jpg"]
+},
+    {
+        "pageId": "febs-network",
+        "pageName": "Febs Network",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["febs-mockup.jpg","febs-in-browser.jpg","febs-imac-on-table.jpg", "febs-home.png", "febs-detail.png"]
+},
+    {
+        "pageId": "moon",
+        "pageName": "Moon",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["moon-box.jpg","moon-tiles.jpg","moon-cards.jpg", "moon-tiles-cloth.jpg", "moon-single-card.gif", "moon-card-back.jpg", "moon-single-tile.jpg"]
+},
+    {
+        "pageId": "health-and-hygiene-floors",
+        "pageName": "Health and Hygiene Floors",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["health-hygiene-floors-logos.png","health-hygiene-floors-business-card.jpg","health-hygiene-floors-website.jpg"]
+},
+    {
+        "pageId": "traffic-control",
+        "pageName": "21st Century Traffic Control",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["traffic-control-logo.jpg","traffic-control-event.jpg","traffic-control-green-phantom-queue.jpg", "traffic-control-yellow-junction-control.jpg", "traffic-control-red-scalextric.jpg", "traffic-control-Postcard.jpg", "traffic-control-cover.jpg", "traffic-control-spread.jpg", "traffic-control-bands.jpg", "traffic-control-badges.jpg", "traffic-control-website.jpg"]
+},
+    {
+        "pageId": "hackathon",
+        "pageName": "Wiley Hackathon",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["hackathon-sign.jpg", "hackathon-logo.png", "hackathon-canvas-bag.jpg", "hackathon-icons.png"]
+},
+    {
+        "pageId": "outer-space-companies",
+        "pageName": "Outerspace Companies",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["outerspace-21-structures.jpg", "outerspace-adaptus-group.jpg", "outerspace-advanced-bionics.jpg", "outerspace-agros-orbita.jpg", "outerspace-arkos-advancements.jpg", "outerspace-astrodynamics.jpg", "outerspace-astroteknica-eight.jpg", "outerspace-avian-gravitics.jpg", "outerspace-bentusi-connections.jpg", "outerspace-betaflex.jpg", "outerspace-branca-industries.jpg", "outerspace-build-automatics.jpg", "outerspace-central-polaris.jpg", "outerspace-chemlink.jpg", "outerspace-corona.jpg", "outerspace-crescent-visions.jpg", "outerspace-dagalite.jpg", "outerspace-datum.jpg", "outerspace-deep-space-hydraulics.jpg", "outerspace-deep-space-operations.jpg", "outerspace-duro.jpg", "outerspace-extramining-instruments.jpg", "outerspace-farlight.jpg", "outerspace-foracom.jpg", "outerspace-galactic-propulsions.jpg", "outerspace-ganicore.jpg", "outerspace-gyrochem.jpg", "outerspace-interpermearus.jpg", "outerspace-keslar.jpg", "outerspace-kirkos.jpg", "outerspace-lotari-systems.jpg", "outerspace-lunaris-engineering-corp.jpg", "outerspace-mass-engineering.jpg", "outerspace-mass-extractions.jpg", "outerspace-matchfriction-manufactures.jpg", "outerspace-mein.jpg", "outerspace-meseki-motion.jpg", "outerspace-monazite.jpg", "outerspace-nebule-data-processing-systems.jpg", "outerspace-node.jpg", "outerspace-onova.jpg", "outerspace-open-colony.jpg", "outerspace-open-economic-interests.jpg", "outerspace-orbital-datum-structures-engineering.jpg", "outerspace-peak.jpg", "outerspace-pr3.jpg", "outerspace-prime-3.jpg", "outerspace-quick-rotations.jpg", "outerspace-radium-janus.jpg", "outerspace-radius-applications.jpg", "outerspace-reactive-instruments.jpg", "outerspace-relier-futur.jpg", "outerspace-retalio.jpg", "outerspace-royal-association-of-planetography.jpg", "outerspace-savant-logics.jpg", "outerspace-sector-g.jpg", "outerspace-solfyr.jpg", "outerspace-speed-control.jpg", "outerspace-supirocorp.jpg", "outerspace-systex.jpg", "outerspace-targa.jpg", "outerspace-tripoint-orbital-systems.jpg", "outerspace-yuani.jpg"]
+},
+    {
+        "pageId": "generated-business-cards",
+        "pageName": "Generated Business Cards",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["generated-cards.jpg", "generated-detail.jpg", "generated-blue-1.png", "generated-blue-2.png", "generated-blue-3.png", "generated-blue-4.png", "generated-blue-5.png", "generated-green-1.png", "generated-green-2.png", "generated-green-3.png", "generated-green-4.png", "generated-green-5.png", "generated-orange-1.png", "generated-orange-2.png", "generated-orange-3.png", "generated-orange-4.png", "generated-orange-5.png", "generated-purple-1.png", "generated-purple-2.png", "generated-purple-3.png", "generated-purple-4.png", "generated-purple-5.png", "generated-red-1.png", "generated-red-2.png", "generated-red-3.png", "generated-red-4.png", "generated-red-5.png"]
+},
+    {
+        "pageId": "winchester-student-agency",
+        "pageName": "Winchester Student Agency",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["wsa-logos-chokablok.png", "wsa-logos-leap.png", "wsa-logos-mindfarm.png", "wsa-logos-uniwin.png", "wsa-logos-winbox.png"]
+},
+    {
+        "pageId": "engagement-model",
+        "pageName": "Engagement Model",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project",
+        "project-images": ["tdi-mockup-on-desk.jpg", "tdi-poster-graphic-landscape.jpg", "tdi-poster-graphic-portrait-detail.jpg"]
+},
+    {
+        "pageId": "spectralab",
+        "pageName": "Spectralab",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["spectra-lab-mockup.jpg", "spectra-lab-splash-1200px.png"]
+},
+    {
+        "pageId": "computer-you",
+        "pageName": "Computer You",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["computer-you-mockup-cover.jpg", "computer-you-mockup-spread.jpg", "computer-you-mockup-spread-alt.jpg", "computer-you-poster.jpg", "computer-you-p03.jpg", "computer-you-p04.jpg", "computer-you-p07.jpg", "computer-you-p08.jpg", "computer-you-p11.jpg", "computer-you-p12.jpg"]
+},
+    {
+        "pageId": "one-hundred-years-of-solitude",
+        "pageName": "One Hundred Years of Solitude",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["one-hundred-frame.jpg", "one-hundred-book.jpg", "one-hundred-alt-image.jpg", "one-hundred-alt-cover.jpg"]
+},
+    {
+        "pageId": "journey-of-a-spaceman",
+        "pageName": "Journey of a Spaceman",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["spaceman-spaceman-frame.jpg", "spaceman-space-frame.jpg", "spaceman6.jpg", "spaceman7.jpg", "spaceman9.jpg", "spaceman10.jpg", "spaceman11.jpg"]
+},
+    {
+        "pageId": "animated-cards",
+        "pageName": "Animated Cards",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["animated-cards-thumb.jpg"],
+        "project-videos": ["animated-cards-bastnasite.mp4", "animated-cards-mescaline.mp4", "animated-cards-nitromethane.mp4", "animated-cards-solar.mp4", "animated-cards-water.mp4"]
+},
+    {
+        "pageId": "xfm",
+        "pageName": "Extreme Food Makeover",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["xfm-logo.jpg"],
+        "project-videos": ["xfm-vid01.mp4", "xfm-vid02.mp4"]
+},
+    {
+        "pageId": "animated-logos",
+        "pageName": "Animated Logos",
+        "home-template": true,
+        "project-page": true,
+        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "project-images": ["animated-logos-thumb.png"],
+        "project-videos": ["animated-logos-21-structures.mp4", "animated-logos-chemlink.mp4", "animated-logos-corona.mp4", "animated-logos-ganicore.mp4", "animated-logos-meseki.mp4", "animated-logos-retalio.mp4"]
+}]

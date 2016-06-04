@@ -1,0 +1,57 @@
+//general
+.sadd-home-skills {
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    @include screen-md {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .sadd-home-skills__example {
+        margin-bottom: 2rem;
+    }
+    .sadd-home-skills__btn {
+        margin-bottom: 2rem;
+    }
+    .panel {
+        position: relative;
+        background-color: transparentize($grey-50,0.25);
+    }
+    .showcase-icon {
+        position: absolute;
+        top: -1rem;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+        left: -1rem;
+        fill: $grey-100;
+        box-sizing: content-box;
+        border: 0.25rem solid darken($accent-2, 10%);
+        height: 2rem;
+        width: 2rem;
+        padding: 0.5rem;
+        border-radius: 50%;
+        background-color: $accent-2;
+    }
+}
+
+.sad-home-skills__icon {
+    display: block;
+    margin: 0 auto;
+    height: 3rem;
+    width: 3rem;
+}
+
+//specifics
+
+.sadd-home-skills--webdesign {
+    background-image: url('/images/ui/home-webdesign-blur.jpg');
+}
+.sadd-home-skills--graphicdesign {
+    background-image: url('/images/ui/home-graphicdesign-blur.jpg');
+}
+.sadd-home-skills--illustration {
+    background-image: url('/images/ui/home-illustration-blur.jpg');
+}
+.sadd-home-skills--animation {
+    background-image: url('/images/ui/home-animation-blur.jpg');
+}

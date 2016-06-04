@@ -1,0 +1,80 @@
+<!--header-->
+
+<!--full width container-->
+<div class="sadd-project__intro bottom-border--orange">
+    <div class="sadd-project__intro-image" style="background-image: url('images/projects/{{project-images.[0]}}')"></div>
+    <div class="sadd-project__intro-overlay"></div>
+    <!--fixed width container-->
+    <div class="container">
+        <!--name and description row-->
+        <div class="row">
+            <div class="col-sm-6">
+
+                <h5><strong>{{pageName}}</strong></h5>
+                <hr>
+                <p>{{description}}</p>
+
+            </div>
+
+            <div class="col-sm-6">
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <h5>Services Rendered</h5>
+                        <hr>
+                        <ul>
+                            {{#each services}}
+                            <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        {{#if extra}}
+                        <h5>More information</h5>
+                        <hr>
+                        <ul>
+                            {{#each extra}}
+                            <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--project content-->
+<div class="sadd-project__content bottom-border--orange">
+
+    <div class="container">
+
+        {{#each project-videos}}
+        <div class="row">
+
+            <div class="col-lg-8 col-lg-offset-2">
+                
+                <video class='img-responsive img-thumbnail center-block' controls loop><source src='/videos/{{this}}' type='video/mp4'> Your browser does not support the video tag.</video>
+                
+            </div>
+
+        </div>
+        {{/each}} {{#each project-images}}
+        <div class="row">
+
+            <div class="col-lg-8 col-lg-offset-2">
+                <img class="img-responsive img-thumbnail center-block" src="/images/projects/{{this}}">
+            </div>
+
+        </div>
+        {{/each}}
+
+    </div>
+
+</div>

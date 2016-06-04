@@ -1,0 +1,27 @@
+// background colours
+.sadd-dark-bg {
+    background-color: $sadd-dark;
+}
+
+.sadd-light-bg {
+    background-color: $sadd-light;
+}
+
+hr {
+    border-color: inherit;
+    opacity: 0.25;
+}
+
+.bottom-border--default {
+    border-bottom: 0.5rem solid $accent-1;
+}
+.bottom-border--green {
+    border-bottom: 0.5rem solid $accent-green;
+}
+.bottom-border--orange {
+    border-bottom: 0.5rem solid $accent-orange;
+}
+
+.inner-shadow {    
+    box-shadow: inset 0 0 32px 0 rgba(0,0,0,0.75);
+}

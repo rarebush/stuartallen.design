@@ -1,0 +1,29 @@
+@import 'partials/bootstrap';
+@import 'partials/mixins';
+@import 'partials/variables';
+
+html {
+    font-size: 16px;
+    height: 100%;
+}
+body {
+    font-size: 16px;  
+    height: 100%;
+    position: relative;
+    background-color: $grey-100;
+}
+
+
+@import 'partials/general';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/body';
+@import 'partials/about-contact';
+@import 'partials/home-intro';
+@import 'partials/home-showcase';
+@import 'partials/home-skills';
+@import 'partials/showcase';
+@import 'partials/projects';
+@import 'partials/project';
+
+@import 'partials/ie-overrides';
