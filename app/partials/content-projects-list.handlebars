@@ -5,18 +5,24 @@
         <div class="row">
 
             <ul class="sadd-projects">
+                
                 {{#each projects}}
+                {{#if active}}
+                
                 <li class="col-sm-6 col-md-4 col-lg-3">
                     <a href="/{{id}}.html">
                         <div class="panel">
                             <div class="sadd-project__image-cont">
-                                <div class="sadd-project__image" style="background-image: url('{{imageUrl}}')"></div>
+                                <div class="sadd-project__image" style="background-image: url('/images/projects/{{id}}/{{imageUrl}}')"></div>
                             </div>
                             <div class="sadd-project__text-cont"><h5>{{name}}</h5></div>
                         </div>
                     </a>
                 </li>
+                
+                {{/if}}
                 {{/each}}
+                
             </ul>
 
         </div>

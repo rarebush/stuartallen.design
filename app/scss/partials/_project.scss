@@ -4,6 +4,9 @@
     padding-bottom: 2rem;
     position: relative;
     overflow: hidden;
+    a {
+        color: $accent-orange;
+    }
     .sadd-project__intro-image {
         position: absolute;
         top: -2rem;
@@ -22,6 +25,13 @@
         bottom: 0;
         background-color: transparentize($sadd-dark, 0.15);
     }
+}
+
+.sadd-project__more {
+    a {
+        word-wrap: break-word;
+    }
+    
 }
 
 .sadd-project__content {

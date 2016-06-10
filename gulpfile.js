@@ -10,25 +10,26 @@ var reload = browserSync.reload;
 var pages = require('./app/data/pages.json');
 
 var paths = {
-    scripts: 'app/scripts/**/*',
-    images: 'app/images/**/*',
-    scss: 'app/scss/**/*.scss',
-    partials: 'app/partials/**/*',
-    templates: 'app/templates/**/*',
-    data: 'app/data/pages.json',
-    html: 'app/**/*.html',
-    fonts: 'app/fonts/**/*',
-    videos: 'app/videos/**/*',
-    destination: 'dist'
+    scripts: 'app/scripts/**/*'
+    , images: 'app/images/**/*'
+    , scss: 'app/scss/**/*.scss'
+    , partials: 'app/partials/**/*'
+    , templates: 'app/templates/**/*'
+    , data: 'app/data/pages.json'
+    , html: 'app/**/*.html'
+    , fonts: 'app/fonts/**/*'
+    , videos: 'app/videos/**/*'
+    , resources: 'app/resources/**/*'
+    , destination: 'dist'
 };
 
 var pathsDist = {
-    scripts: 'dist/scripts/**/*',
-    images: 'dist/images/**/*',
-    css: 'dist/css/**/*',
-    html: 'dist/**/*.html',
-    fonts: 'dist/fonts/**/*',
-    destination: 'dist'
+    scripts: 'dist/scripts/**/*'
+    , images: 'dist/images/**/*'
+    , css: 'dist/css/**/*'
+    , html: 'dist/**/*.html'
+    , fonts: 'dist/fonts/**/*'
+    , destination: 'dist'
 }
 
 // clean
@@ -39,7 +40,9 @@ gulp.task('clean', function (cb) {
 gulp.task('styles', function () {
     return sass('app/scss/styles.scss')
         .pipe(autoprefixer('last 1 version'))
-        .pipe(cleanCSS({compatibility: 'ie8'}))
+        .pipe(cleanCSS({
+            compatibility: 'ie8'
+        }))
         .pipe(gulp.dest('dist/css'))
         .pipe(reload({
             stream: true
@@ -60,37 +63,42 @@ gulp.task('videos', function () {
     return gulp.src(paths.videos)
         .pipe(gulp.dest('dist/videos'));
 });
+// resources
+gulp.task('resources', function () {
+    return gulp.src(paths.resources)
+        .pipe(gulp.dest('dist/resources'));
+});
 // fonts
 gulp.task('fonts', function () {
     return gulp.src(paths.fonts)
         .pipe(gulp.dest('dist/fonts'));
 });
 // create templates with handlebars
-gulp.task('handlebars', function() {
-    
+gulp.task('handlebars', function () {
+
     // handlebars compile
-    
+
     options = {
-        batch : ['./app/partials'],
-        compile : {
+        batch: ['./app/partials']
+        , compile: {
             noEscape: true
         }
     }
-    
-    for(var i=0; i<pages.length; i++) {
-        var page = pages[i],
-            fileName = page.pageId.replace(/ +/g, '-').toLowerCase();
+
+    for (var i = 0; i < pages.length; i++) {
+        var page = pages[i]
+            , fileName = page.pageId.replace(/ +/g, '-').toLowerCase();
 
         gulp.src(paths.templates)
             .pipe(handlebars(page, options))
             .pipe(rename(fileName + ".html"))
             .pipe(gulp.dest('./dist'));
     }
-    
+
 });
 
 // build site in dist
-gulp.task('build', ['handlebars','scripts','images', 'videos','fonts','styles']);
+gulp.task('build', ['handlebars', 'scripts', 'images', 'videos', 'resources', 'fonts', 'styles']);
 
 // watch Sass files for changes, run the Sass preprocessor with the 'sass' task and reload
 gulp.task('serve', ['build'], function () {
@@ -106,9 +114,11 @@ gulp.task('serve', ['build'], function () {
     // images watch
     gulp.watch(paths.images, ['images']);
     // videos watch
-    gulp.watch(paths.video, ['videos']);
+    gulp.watch(paths.videos, ['videos']);
+    // resources watch
+    gulp.watch(paths.resources, ['resources']);
     // build html watch
-    gulp.watch([paths.partials, paths.templates, paths.data], ['build']);
+    gulp.watch([paths.partials, paths.templates, paths.data], ['handlebars']);
     // watch everything else
     gulp.watch([pathsDist.html, pathsDist.images, pathsDist.scripts, pathsDist.fonts], reload);
 });

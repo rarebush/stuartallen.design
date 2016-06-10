@@ -32,55 +32,65 @@
         "projects": [{
             "id": "jas",
             "name": "Journal App Services",
-            "imageUrl": "images/projects/jas-ipad-landscape-news-detail.jpg"
+            "imageUrl": "jas-ipad-landscape-news-detail.jpg",
+            "active": true
         },{
             "id": "wiley-hub-guide",
             "name": "Wiley Hub Guide",
-            "imageUrl": "images/projects/hub-guide-desktop-mobile.png"
+            "imageUrl": "hub-guide-desktop-mobile.png",
+            "active": true
         },{
             "id": "anywhere-article",
             "name": "Anywhere Article",
-            "imageUrl": "images/projects/anywhere-article-macbook.jpg"
+            "imageUrl": "anywhere-article-macbook.jpg",
+            "active": true
         },{
             "id": "hubs",
             "name": "Wiley Online Library Hubs",
-            "imageUrl": "images/projects/hubs-mobile-flat-angle.jpg"
+            "imageUrl": "hubs-mobile-flat-angle.jpg",
+            "active": true
         },{
             "id": "one-wiley-ui-styleguide",
             "name": "One Wiley UI Styleguide",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "wiley-styleguide-nexus10.jpg",
+            "active": true
         },{
             "id": "peer-review",
             "name": "Wiley Peer Review 2015",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "peer-review-showcase.jpg",
+            "active": true
         },{
             "id": "mannatech-europe",
             "name": "Mannatech Europe",
-            "imageUrl": "images/projects/mannatech-focus-website.jpg"
+            "imageUrl": "mannatech-focus-website.jpg",
+            "active": true
         },{
             "id": "chemplanner",
             "name": "Chemplanner",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "chemplanner-logo.svg",
+            "active": true
         },{
             "id": "wiley-journal-insights",
             "name": "Wiley Journal Insights",
-            "imageUrl": "images/projects/wiley-journal-insights-showcase.jpg"
+            "imageUrl": "wiley-journal-insights-showcase.jpg",
+            "active": true
         },{
             "id": "ui-component-library",
             "name": "UI Component Library",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "desk.jpg"
         },{
             "id": "wiley-portal",
             "name": "Wiley Portal",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "desk.jpg"
         },{
             "id": "febs-network",
             "name": "Febs Network",
-            "imageUrl": "images/projects/febs-mockup.jpg"
+            "imageUrl": "febs-mockup.jpg",
+            "active": true
         },{
             "id": "wiley-online-library",
             "name": "Wiley Online Library",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "desk.jpg"
         }]
 },
     {
@@ -93,43 +103,52 @@
         "projects": [{
             "id": "moon",
             "name": "Moon",
-            "imageUrl": "images/projects/moon-box.jpg"
+            "imageUrl": "moon-box.jpg",
+            "active": true
         },{
             "id": "one-wiley-brand-guidelines",
             "name": "One Wiley Brand Guidelines",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "desk.jpg"
         },{
             "id": "health-and-hygiene-floors",
             "name": "Health and Hygiene Floors",
-            "imageUrl": "images/projects/health-hygiene-floors-logos.png"
+            "imageUrl": "health-hygiene-floors-logos.png",
+            "active": true
         },{
             "id": "traffic-control",
             "name": "21st Century Traffic Control",
-            "imageUrl": "images/projects/traffic-control-logo.jpg"
+            "imageUrl": "traffic-control-logo.jpg",
+            "active": true
         },{
             "id": "hackathon",
             "name": "Wiley Hackathon",
-            "imageUrl": "images/projects/hackathon-sign.jpg"
+            "imageUrl": "hackathon-sign.jpg",
+            "active": true
         },{
             "id": "outer-space-companies",
             "name": "Outer Space Companies",
-            "imageUrl": "images/projects/outerspace-21-structures.jpg"
+            "imageUrl": "outerspace-21-structures.jpg",
+            "active": true
         },{
             "id": "generated-business-cards",
             "name": "Generated Business Cards",
-            "imageUrl": "images/projects/generated-cards.jpg"
+            "imageUrl": "generated-cards.jpg",
+            "active": true
         },{
             "id": "winchester-student-agency",
             "name": "Winchester School of Art Student Agency",
-            "imageUrl": "images/projects/wsa-logos-chokablok.png"
+            "imageUrl": "wsa-logos-chokablok.png",
+            "active": true
         },{
             "id": "engagement-model",
             "name": "Engagement Model",
-            "imageUrl": "images/projects/tdi-mockup-on-desk.jpg"
+            "imageUrl": "tdi-mockup-on-desk.jpg",
+            "active": true
         },{
             "id": "spectralab",
             "name": "Spectralab",
-            "imageUrl": "images/projects/spectra-lab-mockup.jpg"
+            "imageUrl": "spectra-lab-mockup.jpg",
+            "active": true
         }]
 },
     {
@@ -142,15 +161,18 @@
         "projects": [{
             "id": "computer-you",
             "name": "Computer You",
-            "imageUrl": "images/projects/computer-you-mockup-cover.jpg"
+            "imageUrl": "computer-you-mockup-cover.jpg",
+            "active": true
         },{
             "id": "one-hundred-years-of-solitude",
             "name": "One Hundred Years of Solitude",
-            "imageUrl": "images/projects/one-hundred-frame.jpg"
+            "imageUrl": "one-hundred-frame.jpg",
+            "active": true
         },{
             "id": "journey-of-a-spaceman",
             "name": "Journey of a Spaceman",
-            "imageUrl": "images/projects/spaceman-spaceman-frame.jpg"
+            "imageUrl": "spaceman-spaceman-frame.jpg",
+            "active": true
         }]
 },
     {
@@ -163,23 +185,28 @@
         "projects": [{
             "id": "animated-logos",
             "name": "Animated Logos",
-            "imageUrl": "images/projects/animated-logos-thumb.png"
+            "imageUrl": "animated-logos-thumb.png",
+            "active": true
         },{
             "id": "xfm",
             "name": "Extreme Food Makeover",
-            "imageUrl": "images/projects/xfm-logo.jpg"
+            "imageUrl": "xfm-logo.jpg",
+            "active": true
         },{
             "id": "animated-cards",
             "name": "Animated Cards",
-            "imageUrl": "images/projects/animated-cards-thumb.jpg"
+            "imageUrl": "animated-cards-thumb.jpg",
+            "active": true
         },{
             "id": "noob-gallery",
             "name": "Noob Gallery",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "noob-gallery-identity.png",
+            "active": true
         },{
             "id": "uth",
             "name": "Ūth",
-            "imageUrl": "images/projects/desk.jpg"
+            "imageUrl": "uth-banner.jpg",
+            "active": true
         }]
 },
     {
@@ -187,179 +214,310 @@
         "pageName": "Journal App Services",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the jas project",
+        "description": "<p>JAS is an application platform that allows for the management and creation of mobile apps for research societies and their journals. The platform helps push article content to users through a custom app pertaining to their chosen society or subject.</p><p><strong>The app includes news feeds, issue downloads and a custom article viewer.</strong></p>",
         "project-images": ["jas-ipad-portrait-journal-picker.jpg","jas-ipad-landscape-news.jpg","jas-ipad-landscape-news-detail.jpg","jas-ipad-landscape-toc.jpg"],
-        "services": ["UI design", "Gaphic design", "iOS design standards"],
-        "extra": ["<a href='http://getbootstrap.com/css/#grid'>Bootstrap</a>", "Graphic design", "iOS design standards"]
+        "services": ["UI design", "Photo manipulation", "iOS design standards", "Graphic Design"],
+        "extra": ["<p>JAS 3.3 with the new UI is scheduled to be released later this year</p>"]
 },
     {
         "pageId": "wiley-hub-guide",
         "pageName": "Wiley Hub Guide",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["hub-guide-desktop-mobile.png","hub-guide-desktop.png","hub-guide-execution.png", "hub-guide-themes.png"]
+        "description": "<p>The Hub Guide is a documentation site that helps both Wiley employees and society executives understand the abilities of the Hub platform.</p><p>It includes information on the hub website structure, as well as a list of site elements such as widgets, carousels, branding, etc.</p><p>A special feature of the site is the ability to change the colours of the wire frames to suit a prospective customer&rsquo;s brand.</p>",
+        "project-images": ["hub-guide-desktop-mobile.png","hub-guide-desktop.png","hub-guide-execution.png", "hub-guide-themes.png"],
+        "services": ["UI Design", "HTML & SASS", "JavaScript", "Graphic Design"],
+        "extra":["<p><a href='http://rarebush.github.com'>http://rarebush.github.com</a></p>"]
 },
     {
         "pageId": "anywhere-article",
         "pageName": "Anywhere Article",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["anywhere-article-macbook.jpg","anywhere-article-ipad-iphone.jpg","anywhere-article-browsers.jpg", "anywhere-article-mobile.jpg"]
+        "description": "<p>Anywhere Article is Wiley&rsquo;s HTML5 article reading platform that will eventually combine the ease of use of a PDF with the functionality of a web application. It combines modern web technologies with an interface that allows for easy, yet sophisticated consumption of research materials.</p><p>Some key features include pull-out panels that provide more information about the article, a figure viewer and the ability to export citations to a wide range of citation managing platforms.</p>",
+        "project-images": ["anywhere-article-macbook.jpg","anywhere-article-ipad-iphone.jpg","anywhere-article-browsers.jpg", "anywhere-article-mobile.jpg"],
+        "services": ["UI Design", "Icon Design"],
+        "extra":["<p><a href='http://onlinelibrary.wiley.com/doi/10.1002/2015EF000336/full'>AGU Article example</a></p><p><a href='http://onlinelibrary.wiley.com/doi/10.1002/14651858.CD008334.pub2/full'>Cochrane Article example</a></p>"]
 },
     {
         "pageId": "hubs",
         "pageName": "Wiley Online Library Hubs",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["hubs-mobile-flat-angle.jpg","hubs-mobile-flat.jpg","hubs-desktop-iubmb.jpg", "hubs-desktop-febs.jpg", "hubs-desktop-aasld.jpg"]
+        "description": "<p>Hubs are microsites dedicated to showcasing journals, articles and information pertaining to a specific society or subject. There are currently a dozen Hubs each with there own theme and content. However, the underlying structure is the same and ties in closely with the Anywhere Article HTML article viewer.</p>",
+        "project-images": ["hubs-mobile-flat-angle.jpg","hubs-mobile-flat.jpg","hubs-desktop-iubmb.jpg", "hubs-desktop-febs.jpg", "hubs-desktop-aasld.jpg"],
+        "services": ["UI Design", "Graphic Design", "Icon Design"],
+        "extra":["<p><a href='http://aasldpubs.onlinelibrary.wiley.com/'>AASLD</a><br><a href='http://febs.onlinelibrary.wiley.com/'>FEBS</a><br><a href='http://obgyn.onlinelibrary.wiley.com/'>OBGYN</a><br><a href='http://iubmb.onlinelibrary.wiley.com/'>IUBMB</a><br><a href='http://agupubs.onlinelibrary.wiley.com/'>AGU Publications</a></p>"]
+},
+    {
+        "pageId": "one-wiley-ui-styleguide",
+        "pageName": "One Wiley UI Styleguide",
+        "home-template": true,
+        "project-page": true,
+        "description": "<p>Hubs are microsites dedicated to showcasing journals, articles and information pertaining to a specific society or subject. There are currently a dozen Hubs each with there own theme and content. However, the underlying structure is the same and ties in closely with the Anywhere Article HTML article viewer.</p>",
+        "project-images": ["wiley-styleguide-nexus10.jpg","wiley-styleguide-nexus5.jpg","wiley-styleguide-apple.jpg"],
+        "services": ["UI Design", "Graphic Design", "Icon Design", "HTML & SASS", "JavaScript", "Git"],
+        "extra":["<p><a href='http://onewiley.github.io/'>Wiley UI Styleguide</a></p>"]
+},
+    {
+        "pageId": "peer-review",
+        "pageName": "Wiley Peer Review 2015",
+        "home-template": true,
+        "project-page": true,
+        "description": "<p>This microsite was created to illustrate the results of research undertaken by Wiley to better understand the response writers have to various peer review techniques and incentives.</p><p>The data visualisation was designed and created using D3.js, a javascript library for visualising data using web technologies.</p>",
+        "project-images": ["peer-review-showcase.jpg","peer-review-icons.png","peer-review-stacked.png", "peer-review-pichart.png"],
+        "services": ["UI Design", "Graphic Design", "Icon Design", "HTML & SASS", "JavaScript", "Git", "Data Visualisation"],
+        "extra":["<p><a href='http://wileypeerreview.github.io/'>Wiley Peer Review 2015</a></p>"]
 },
     {
         "pageId": "mannatech-europe",
         "pageName": "Mannatech Europe",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["mannatech-focus-website.jpg","mannatech-laptop-website.jpg","mannatech-phone-website.jpg"]
+        "description": "<p>Mannatech Europe is built in collaboration with the Mannatech North-American web development team to ensure it meets Mannatech&rsquo;s international standards and connects with the current online customer tools and ordering facilities.</p><p>The major goals of the project included:</p><ul><li>update the UX to be more contemporary whilst improving ease of use</li><li>bring news, events and products to the forefront of the user&rsquo;s attention whilst not overburdening them with information</li><li>begin laying the foundations of a new digital product inventory that can homogenise all current product databases</li></ul><p>My roles within the project included designing and developing the new interface; managing the improved product database; and organising and implementing multiple translations for various european countries.</p>",
+        "project-images": ["mannatech-focus-website.jpg","mannatech-laptop-website.jpg","mannatech-phone-website.jpg"],
+        "services": ["UX Architecture", "UI Design", "Graphic Design", "Wordpress", "HTML & SASS"],
+        "extra":["<p><a href='http://uk.mannatech.com'>Mannatech UK</a></p>"]
+},
+    {
+        "pageId": "chemplanner",
+        "pageName": "Chemplanner",
+        "home-template": true,
+        "project-page": true,
+        "description": "<p>Chemplanner is a piece of software aimed towards chemists. It uses a large database of proven reactions, research and compounds to analyse and predict the outcomes and costs of synthetic chemical structures.</p><p>I assisted with the UI design and worked closely with the lead UX Architect in order to produce an interface that is clear and professional.</p>",
+        "project-images": ["chemplanner-logo.svg","chemplanner-home.png","chemplanner-synthesis.png", "chemplanner-literature.png"],
+        "services": ["UI Design", "Icon Design", "Graphic Design"],
+        "extra":["<p><a href='http://www.chemplanner.com/'>Chemplanner home</a></p>"]
 },
     {
         "pageId": "wiley-journal-insights",
         "pageName": "Wiley Journal Insights",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["wiley-journal-insights-showcase.jpg","wiley-journal-insights-hand.jpg","wiley-journal-insights-browser.jpg", "wiley-journal-insights-hand-detail.jpg", "wiley-journal-insights-detail.jpg"]
+        "description": "<p>To assist societies and their journals understand the analytics gathered about their publications, Wiley are creating a dashboard that can easily visualise and filter data such as article views, citations, subscriptions, etc.</p><p>I am responsible for the visual style and transition of the Wiley brand to the dashboard interface and visualisations.</p>",
+        "project-images": ["wiley-journal-insights-showcase.jpg","wiley-journal-insights-hand.jpg","wiley-journal-insights-browser.jpg", "wiley-journal-insights-hand-detail.jpg", "wiley-journal-insights-detail.jpg"],
+        "services": ["UI Design", "Icon Design", "Graphic Design", "UX Architecture", "Data Visualisation"],
+        "extra":["<p><i>Coming in 2016</i></p>"]
 },
     {
         "pageId": "febs-network",
         "pageName": "Febs Network",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["febs-mockup.jpg","febs-in-browser.jpg","febs-imac-on-table.jpg", "febs-home.png", "febs-detail.png"]
+        "description": "<p>To encourage society leaders to engage with their peers, Wiley are creating a social platform that allows members to pass on their knowledge in order to benefit the research journal industry.</p><p>The social site will be designed to create events, network with event attendees, community Q&amp;A and a number of other useful features.</p>",
+        "project-images": ["febs-mockup.jpg","febs-in-browser.jpg","febs-imac-on-table.jpg", "febs-home.png", "febs-detail.png"],
+        "services": ["UI Design", "Graphic Design", "Photo manipulation"],
+        "extra":["<p><i>Coming in 2016</i></p>"]
 },
     {
         "pageId": "moon",
         "pageName": "Moon",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["moon-box.jpg","moon-tiles.jpg","moon-cards.jpg", "moon-tiles-cloth.jpg", "moon-single-card.gif", "moon-card-back.jpg", "moon-single-tile.jpg"]
+        "description": "<p>Moon is the reimagining of a classic European board game called Settlers of Catan.</p><p>The purpose of this project was to allow me to experience the design process of forming a working, physical board game; whilst simultaneously being able to create something that I can keep and use for my own pleasure.</p><p>The one-off board-game is comprised of a set of playing cards and a set of painted tiles. The tile designs were etched into the paint by a laser cutter.</p>",
+        "project-images": ["moon-box.jpg","moon-tiles.jpg","moon-cards.jpg", "moon-tiles-cloth.jpg", "moon-single-card.gif", "moon-card-back.jpg", "moon-single-tile.jpg"],
+        "services": ["Graphic Design", "Photo manipulation", "Graphic Animation", "3D Modelling/Rendering"]
 },
     {
         "pageId": "health-and-hygiene-floors",
         "pageName": "Health and Hygiene Floors",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["health-hygiene-floors-logos.png","health-hygiene-floors-business-card.jpg","health-hygiene-floors-website.jpg"]
+        "description": "<p>A floor installation company (who has since become a contract worker solely for Peter Green).</p><p>The commissioned work included a company logotype and brand-guidelines, as well as an information website advertising the products H&amp;H Floors specialise in.</p>",
+        "project-images": ["health-hygiene-floors-logos.png","health-hygiene-floors-business-card.jpg","health-hygiene-floors-website.jpg"],
+        "services": ["Graphic Design", "Photo manipulation", "UI Design", "Wordpress"]
 },
     {
         "pageId": "traffic-control",
         "pageName": "21st Century Traffic Control",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["traffic-control-logo.jpg","traffic-control-event.jpg","traffic-control-green-phantom-queue.jpg", "traffic-control-yellow-junction-control.jpg", "traffic-control-red-scalextric.jpg", "traffic-control-Postcard.jpg", "traffic-control-cover.jpg", "traffic-control-spread.jpg", "traffic-control-bands.jpg", "traffic-control-badges.jpg", "traffic-control-website.jpg"]
+        "description": "<p>The University of Southampton&rsquo;s Engineering entry for the Royal Society: Summer Science Exhibition.</p><p>Upon securing the contract to design and organise the entry, I developed a marketing strategy that included a series of promotional materials as well as the physical design of the exhibition booth.</p><p>I designed the entry&rsquo;s identity which I then applied to badges, bands, postcards, etc. I also collated and arranged a brochure to be handed out at the exhibition.</p><p>I also developed a simple website using the Joomla CMS - including graphics based off of the entry&rsquo;s identity.</p>",
+        "project-images": ["traffic-control-logo.jpg","traffic-control-event.jpg","traffic-control-green-phantom-queue.jpg", "traffic-control-yellow-junction-control.jpg", "traffic-control-red-scalextric.jpg", "traffic-control-Postcard.jpg", "traffic-control-cover.jpg", "traffic-control-spread.jpg", "traffic-control-bands.jpg", "traffic-control-badges.jpg", "traffic-control-website.jpg"],
+        "services": ["Page Layout", "Graphic Design", "Joomla", "Exhibition Design", "Photo Manipulation"],
+        "extra":["<p><a href='http://www.invisible-referee.soton.ac.uk/'>Traffic Control site</a><br><a href='/resources/traffic-control.pdf'>Traffic Control brochure</a></p>"]
 },
     {
         "pageId": "hackathon",
         "pageName": "Wiley Hackathon",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
-        "project-images": ["hackathon-sign.jpg", "hackathon-logo.png", "hackathon-canvas-bag.jpg", "hackathon-icons.png"]
+        "description": "<p>The Wiley Hackathon is an event held by Wiley to encourage designers, programmers and managers to collaborate and produce proof of concepts. Items produced include web-apps, software infrastructure, and more.</p><p>Besides taking part in the event, it was my responsibility to produce the identity and graphics that supported the event.</p>",
+        "project-images": ["hackathon-sign.jpg", "hackathon-logo.png", "hackathon-canvas-bag.jpg", "hackathon-icons.png"],
+        "services": ["Graphic Design", "Exhibition Design"]
 },
     {
         "pageId": "outer-space-companies",
         "pageName": "Outerspace Companies",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["outerspace-21-structures.jpg", "outerspace-adaptus-group.jpg", "outerspace-advanced-bionics.jpg", "outerspace-agros-orbita.jpg", "outerspace-arkos-advancements.jpg", "outerspace-astrodynamics.jpg", "outerspace-astroteknica-eight.jpg", "outerspace-avian-gravitics.jpg", "outerspace-bentusi-connections.jpg", "outerspace-betaflex.jpg", "outerspace-branca-industries.jpg", "outerspace-build-automatics.jpg", "outerspace-central-polaris.jpg", "outerspace-chemlink.jpg", "outerspace-corona.jpg", "outerspace-crescent-visions.jpg", "outerspace-dagalite.jpg", "outerspace-datum.jpg", "outerspace-deep-space-hydraulics.jpg", "outerspace-deep-space-operations.jpg", "outerspace-duro.jpg", "outerspace-extramining-instruments.jpg", "outerspace-farlight.jpg", "outerspace-foracom.jpg", "outerspace-galactic-propulsions.jpg", "outerspace-ganicore.jpg", "outerspace-gyrochem.jpg", "outerspace-interpermearus.jpg", "outerspace-keslar.jpg", "outerspace-kirkos.jpg", "outerspace-lotari-systems.jpg", "outerspace-lunaris-engineering-corp.jpg", "outerspace-mass-engineering.jpg", "outerspace-mass-extractions.jpg", "outerspace-matchfriction-manufactures.jpg", "outerspace-mein.jpg", "outerspace-meseki-motion.jpg", "outerspace-monazite.jpg", "outerspace-nebule-data-processing-systems.jpg", "outerspace-node.jpg", "outerspace-onova.jpg", "outerspace-open-colony.jpg", "outerspace-open-economic-interests.jpg", "outerspace-orbital-datum-structures-engineering.jpg", "outerspace-peak.jpg", "outerspace-pr3.jpg", "outerspace-prime-3.jpg", "outerspace-quick-rotations.jpg", "outerspace-radium-janus.jpg", "outerspace-radius-applications.jpg", "outerspace-reactive-instruments.jpg", "outerspace-relier-futur.jpg", "outerspace-retalio.jpg", "outerspace-royal-association-of-planetography.jpg", "outerspace-savant-logics.jpg", "outerspace-sector-g.jpg", "outerspace-solfyr.jpg", "outerspace-speed-control.jpg", "outerspace-supirocorp.jpg", "outerspace-systex.jpg", "outerspace-targa.jpg", "outerspace-tripoint-orbital-systems.jpg", "outerspace-yuani.jpg"]
+        "description": "<p>A sub-set of designs produced to aid the creation of a board game (Moon). The logos here are for fictitious companies that a player might pick as an in-game identity. Some were developed further for animation and can be found here.</p>",
+        "project-images": ["outerspace-21-structures.jpg", "outerspace-adaptus-group.jpg", "outerspace-advanced-bionics.jpg", "outerspace-agros-orbita.jpg", "outerspace-arkos-advancements.jpg", "outerspace-astrodynamics.jpg", "outerspace-astroteknica-eight.jpg", "outerspace-avian-gravitics.jpg", "outerspace-bentusi-connections.jpg", "outerspace-betaflex.jpg", "outerspace-branca-industries.jpg", "outerspace-build-automatics.jpg", "outerspace-central-polaris.jpg", "outerspace-chemlink.jpg", "outerspace-corona.jpg", "outerspace-crescent-visions.jpg", "outerspace-dagalite.jpg", "outerspace-datum.jpg", "outerspace-deep-space-hydraulics.jpg", "outerspace-deep-space-operations.jpg", "outerspace-duro.jpg", "outerspace-extramining-instruments.jpg", "outerspace-farlight.jpg", "outerspace-foracom.jpg", "outerspace-galactic-propulsions.jpg", "outerspace-ganicore.jpg", "outerspace-gyrochem.jpg", "outerspace-interpermearus.jpg", "outerspace-keslar.jpg", "outerspace-kirkos.jpg", "outerspace-lotari-systems.jpg", "outerspace-lunaris-engineering-corp.jpg", "outerspace-mass-engineering.jpg", "outerspace-mass-extractions.jpg", "outerspace-matchfriction-manufactures.jpg", "outerspace-mein.jpg", "outerspace-meseki-motion.jpg", "outerspace-monazite.jpg", "outerspace-nebule-data-processing-systems.jpg", "outerspace-node.jpg", "outerspace-onova.jpg", "outerspace-open-colony.jpg", "outerspace-open-economic-interests.jpg", "outerspace-orbital-datum-structures-engineering.jpg", "outerspace-peak.jpg", "outerspace-pr3.jpg", "outerspace-prime-3.jpg", "outerspace-quick-rotations.jpg", "outerspace-radium-janus.jpg", "outerspace-radius-applications.jpg", "outerspace-reactive-instruments.jpg", "outerspace-relier-futur.jpg", "outerspace-retalio.jpg", "outerspace-royal-association-of-planetography.jpg", "outerspace-savant-logics.jpg", "outerspace-sector-g.jpg", "outerspace-solfyr.jpg", "outerspace-speed-control.jpg", "outerspace-supirocorp.jpg", "outerspace-systex.jpg", "outerspace-targa.jpg", "outerspace-tripoint-orbital-systems.jpg", "outerspace-yuani.jpg"],
+        "services": ["Graphic Design"]
 },
     {
         "pageId": "generated-business-cards",
         "pageName": "Generated Business Cards",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["generated-cards.jpg", "generated-detail.jpg", "generated-blue-1.png", "generated-blue-2.png", "generated-blue-3.png", "generated-blue-4.png", "generated-blue-5.png", "generated-green-1.png", "generated-green-2.png", "generated-green-3.png", "generated-green-4.png", "generated-green-5.png", "generated-orange-1.png", "generated-orange-2.png", "generated-orange-3.png", "generated-orange-4.png", "generated-orange-5.png", "generated-purple-1.png", "generated-purple-2.png", "generated-purple-3.png", "generated-purple-4.png", "generated-purple-5.png", "generated-red-1.png", "generated-red-2.png", "generated-red-3.png", "generated-red-4.png", "generated-red-5.png"]
+        "description": "<p>Using a programming language called &lsquo;Processing&rsquo; I developed a script that would randomly draw &lsquo;creatures&rsquo; using coloured blocks. A selection of the designs were used to create unique business cards as a way to impart something personal to the receiver.</p>",
+        "project-images": ["generated-cards.jpg", "generated-detail.jpg", "generated-blue-1.png", "generated-blue-2.png", "generated-blue-3.png", "generated-blue-4.png", "generated-blue-5.png", "generated-green-1.png", "generated-green-2.png", "generated-green-3.png", "generated-green-4.png", "generated-green-5.png", "generated-orange-1.png", "generated-orange-2.png", "generated-orange-3.png", "generated-orange-4.png", "generated-orange-5.png", "generated-purple-1.png", "generated-purple-2.png", "generated-purple-3.png", "generated-purple-4.png", "generated-purple-5.png", "generated-red-1.png", "generated-red-2.png", "generated-red-3.png", "generated-red-4.png", "generated-red-5.png"],
+        "services": ["Processing", "Graphic Design"]
 },
     {
         "pageId": "winchester-student-agency",
         "pageName": "Winchester Student Agency",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["wsa-logos-chokablok.png", "wsa-logos-leap.png", "wsa-logos-mindfarm.png", "wsa-logos-uniwin.png", "wsa-logos-winbox.png"]
+        "description": "<p>The results of a brief to develop an identity for an in-house student agency at the Winchester School of Art.</p>",
+        "project-images": ["wsa-logos-chokablok.png", "wsa-logos-leap.png", "wsa-logos-mindfarm.png", "wsa-logos-uniwin.png", "wsa-logos-winbox.png"],
+        "services": ["Graphic Design"],
+        "extra": ["<p><a href='http://www.southampton.ac.uk/wsa/undergraduate/student_agency.page'>University of Southampton</a></p>"]
 },
     {
         "pageId": "engagement-model",
         "pageName": "Engagement Model",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project",
-        "project-images": ["tdi-mockup-on-desk.jpg", "tdi-poster-graphic-landscape.jpg", "tdi-poster-graphic-portrait-detail.jpg"]
+        "description": "<p>The Engagement model is a user-centred design process Wiley&rsquo;s Global Research design teams follow in order to approach, analyse and execute projects.</p><p>The process is cyclical and focuses on user feedback in order to complete a successful user experience.</p><p>The graphic produced is used to introduce new members of the design team and to help communicate our department&rsquo;s function to our stakeholders.</p>",
+        "project-images": ["tdi-mockup-on-desk.jpg", "tdi-poster-graphic-landscape.jpg", "tdi-poster-graphic-portrait-detail.jpg"],
+        "services": ["Infographic Design", "Icon Design"]
 },
     {
         "pageId": "spectralab",
         "pageName": "Spectralab",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
-        "project-images": ["spectra-lab-mockup.jpg", "spectra-lab-splash-1200px.png"]
+        "description": "<p>Wiley Spectra Lab is an expert spectral data system that uses empirical spectral data and advanced software to help chemists, toxicologists, and life scientists confidently identify chemical substances.</p><p>The application is undergoing UI improvements that I have initiated through conceptual imagery.</p>",
+        "project-images": ["spectra-lab-mockup.jpg", "spectra-lab-splash-1200px.png"],
+        "services": ["UI Design", "Graphic Design", "Icon Design"],
+        "extra": ["<p><a href='http://wileyspectralab.com/'>http://wileyspectralab.com/</a></p>"]
 },
     {
         "pageId": "computer-you",
         "pageName": "Computer You",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
-        "project-images": ["computer-you-mockup-cover.jpg", "computer-you-mockup-spread.jpg", "computer-you-mockup-spread-alt.jpg", "computer-you-poster.jpg", "computer-you-p03.jpg", "computer-you-p04.jpg", "computer-you-p07.jpg", "computer-you-p08.jpg", "computer-you-p11.jpg", "computer-you-p12.jpg"]
+        "description": "<p>A brochure focused on educating computer-illiterate individuals who wish to learn more about computing in collaboration with BBC WebWise.</p><p>The proposed brochure was intended to be distributed for free by local libraries. Unfortunately, although the product was sound, the BBC had no capacity to finance the free brochure.</p>",
+        "project-images": ["computer-you-mockup-cover.jpg", "computer-you-mockup-spread.jpg", "computer-you-mockup-spread-alt.jpg", "computer-you-poster.jpg", "computer-you-p03.jpg", "computer-you-p04.jpg", "computer-you-p07.jpg", "computer-you-p08.jpg", "computer-you-p11.jpg", "computer-you-p12.jpg"],
+        "services": ["Illustration", "Page Layout", "Copywriting", "Graphic Design"],
+        "extra": ["<p><a href='/resources/computer-you.pdf'>Full Computer You brochure</a></p>"]
 },
     {
         "pageId": "one-hundred-years-of-solitude",
         "pageName": "One Hundred Years of Solitude",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
-        "project-images": ["one-hundred-frame.jpg", "one-hundred-book.jpg", "one-hundred-alt-image.jpg", "one-hundred-alt-cover.jpg"]
+        "description": "<p>A proposal for a book cover design for the literature piece &lsquo;One Hundred Years of Solitude&rsquo;.</p><p>The designs use the style of Rorschach inkblots to symbolise the ideas of personal desire, mirages, and the extraordinary.</p>",
+        "project-images": ["one-hundred-frame.jpg", "one-hundred-book.jpg", "one-hundred-alt-image.jpg", "one-hundred-alt-cover.jpg"],
+        "services": ["Illustration", "Graphic Design"]
 },
     {
         "pageId": "journey-of-a-spaceman",
         "pageName": "Journey of a Spaceman",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
-        "project-images": ["spaceman-spaceman-frame.jpg", "spaceman-space-frame.jpg", "spaceman6.jpg", "spaceman7.jpg", "spaceman9.jpg", "spaceman10.jpg", "spaceman11.jpg"]
-},
-    {
-        "pageId": "animated-cards",
-        "pageName": "Animated Cards",
-        "home-template": true,
-        "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
-        "project-images": ["animated-cards-thumb.jpg"],
-        "project-videos": ["animated-cards-bastnasite.mp4", "animated-cards-mescaline.mp4", "animated-cards-nitromethane.mp4", "animated-cards-solar.mp4", "animated-cards-water.mp4"]
-},
-    {
-        "pageId": "xfm",
-        "pageName": "Extreme Food Makeover",
-        "home-template": true,
-        "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
-        "project-images": ["xfm-logo.jpg"],
-        "project-videos": ["xfm-vid01.mp4", "xfm-vid02.mp4"]
+        "description": "<p>A series of conceptual art and storyboards that tell the story of a man being stranded in space who eventually drifts into a black hole which causes him to transform into a superbeing.</p><p>The story is simple and would rely on spectacular imagery and rich colours to gain merit.</p>",
+        "project-images": ["spaceman-spaceman-frame.jpg", "spaceman-space-frame.jpg", "spaceman6.jpg", "spaceman7.jpg", "spaceman9.jpg", "spaceman10.jpg", "spaceman11.jpg"],
+        "services": ["Illustration"]
 },
     {
         "pageId": "animated-logos",
         "pageName": "Animated Logos",
         "home-template": true,
         "project-page": true,
-        "description": "this is blurb about the Hub Guide Project and some other stuff refreshassd",
+        "description": "<p>A series of animated logos intended to add flavour and depth to a board game. Each player would assume the identity of one of these corporations.</p><p>The animations were created in Adobe After Effects and audio was contracted out to an electronic musician.</p>",
         "project-images": ["animated-logos-thumb.png"],
-        "project-videos": ["animated-logos-21-structures.mp4", "animated-logos-chemlink.mp4", "animated-logos-corona.mp4", "animated-logos-ganicore.mp4", "animated-logos-meseki.mp4", "animated-logos-retalio.mp4"]
+        "project-videos": [{
+            "vidname": "animated-logos-21structures.mp4",
+            "vidimg": "animated-logos-21structures.png"
+        },{
+            "vidname": "animated-logos-chemlink.mp4",
+            "vidimg": "animated-logos-chemlink.png"
+        },{
+            "vidname": "animated-logos-corona.mp4",
+            "vidimg": "animated-logos-corona.png"
+        },{
+            "vidname": "animated-logos-ganicore.mp4",
+            "vidimg": "animated-logos-ganicore.png"
+        },{
+            "vidname": "animated-logos-meseki.mp4",
+            "vidimg": "animated-logos-meseki.png"
+        },{
+            "vidname": "animated-logos-retalio.mp4",
+            "vidimg": "animated-logos-retalio.png"
+        }],
+        "services": ["Animation", "AV editing"]
+},
+    {
+        "pageId": "xfm",
+        "pageName": "Extreme Food Makeover",
+        "home-template": true,
+        "project-page": true,
+        "description": "<p>An information programme designed to promote healthy lifestyle changes and the Mannatech business model.</p><p>XFM is comprised of a strong brand and a series of short information videos that introduce you to:</p><ul><li>society health issues and artificial ingredients</li><li>current state of the supplement industry</li><li>Mannatech product line</li><li>Mannatech business model</li></ul><p>I was responsible for developing the videos, editing and implementing translations, as well as collating the series into a consumable package ready for consumption at XFM meetings.</p>",
+        "project-images": ["xfm-logo.jpg"],
+        "project-videos": [{
+            "vidname": "xfm-vid01.mp4",
+            "vidimg": "xfm-vid01.jpg"
+        },{
+            "vidname": "xfm-vid02.mp4",
+            "vidimg": "xfm-vid02.jpg"
+        }],
+        "services": ["Audio Mastering", "AV editing", "Voice Over directing"],
+        "extra": ["<p><a href='http://uk.mannatech.com/real-possibilities/world-class-support/xfm/'>XFM on Mannatech UK</a></p>"]
+},
+    {
+        "pageId": "animated-cards",
+        "pageName": "Animated Cards",
+        "home-template": true,
+        "project-page": true,
+        "description": "<p>A collection of animations designed to look like holograms for a futuristic board game called &lsquo;Moon&rsquo;.</p>",
+        "project-images": ["animated-cards-thumb.jpg"],
+        "project-videos": [{
+            "vidname": "animated-cards-bastnasite.mp4",
+            "vidimg": "animated-cards-bastnasite.jpg"
+        },{
+            "vidname": "animated-cards-mescaline.mp4",
+            "vidimg": "animated-cards-mescaline.jpg"
+        },{
+            "vidname": "animated-cards-nitromethane.mp4",
+            "vidimg": "animated-cards-nitromethane.jpg"
+        },{
+            "vidname": "animated-cards-solar.mp4",
+            "vidimg": "animated-cards-solar.jpg"
+        },{
+            "vidname": "animated-cards-water.mp4",
+            "vidimg": "animated-cards-water.jpg"
+        }],
+        "services": ["Animation"]
+},
+    {
+        "pageId": "noob-gallery",
+        "pageName": "Noob Gallery",
+        "home-template": true,
+        "project-page": true,
+        "description": "<p>A brand with accompanying website and animation, developed for a brighton based art gallery who focus on video games.</p><p>The pixelated logo was produced to make the gallery immediately identifiable with video games. It&rsquo;s bold nature and hard edges also allow it to scale well - particularly on smaller screens.</p><p>The website was developed with the Wordpress CMS with the intention that the gallery owners could then manage their content without the aid of a specialist.</p>",
+        "project-images": ["noob-gallery-identity.png", "noob-gallery-website.jpg", "noob-gallery-duckman.jpg", "noob-gallery-sonic.jpg", "noob-gallery-diablo.jpg", "noob-gallery-black.jpg"],
+        "project-videos": [{
+            "vidname": "noob-gallery-introduction.mp4",
+            "vidimg": "noob-gallery-introduction.jpg"
+        }],
+        "services": ["Animation", "Graphic Design", "UI Design", "Marketing"]
+},
+    {
+        "pageId": "uth",
+        "pageName": "Ūth",
+        "home-template": true,
+        "project-page": true,
+        "description": "<p>A duo of short, informative videos that introduce the ethos of the Mannatech skin care product, Ūth.</p>",
+        "project-images": ["uth-banner.jpg"],
+        "project-videos": [{
+            "vidname": "uth-the-story.mp4",
+            "vidimg": "uth-the-story.jpg"
+        },{
+            "vidname": "uth-the-science.mp4",
+            "vidimg": "uth-the-science.jpg"
+        }],
+        "services": ["AV editing", "Graphic Design"],
+        "extra": ["<p><a href='http://uk.mannatech.com/products/uthskincare/'>Ūth on Mannatech UK</a></p>"]
 }]
